@@ -1,0 +1,36 @@
+{
+  "name": "ai-env-gen",
+  "version": "1.0.0",
+  "description": "Generate .env files by scanning your code for environment variables",
+  "main": "index.js",
+  "bin": {
+    "ai-env-gen": "./index.js"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "environment",
+    "variables",
+    "generator",
+    "ai",
+    "cli",
+    "config"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/ai-env-gen"
+  },
+  "homepage": "https://github.com/lxgicstudios/ai-env-gen#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "glob": "^10.3.10",
+    "openai": "^4.28.0",
+    "ora": "^8.0.1"
+  }
+}
