@@ -118,6 +118,24 @@ Options:
   --no-ai               Skip AI descriptions
 ```
 
+## FAQ
+
+### Does ai-env-gen read my actual .env file?
+
+No. It only scans source code for variable references. Your secrets are never accessed or exposed.
+
+### What if I have variables in multiple frameworks?
+
+ai-env-gen detects patterns from Node.js, Vite, Deno, Next.js, and Laravel. Variables are deduplicated and merged into one file.
+
+### Can I use it in CI/CD?
+
+Yes. Use `npx ai-env-gen --no-ai` for deterministic output without API calls. Compare the output against your deployed environment to catch missing variables.
+
+### How does the AI description work?
+
+If `OPENAI_API_KEY` is set, ai-env-gen sends variable names (not values) to GPT to generate helpful descriptions. Use `--no-ai` to skip this.
+
 ## License
 
 MIT - Built by [LXGIC Studios](https://github.com/lxgicstudios)
