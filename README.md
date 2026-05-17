@@ -138,4 +138,12 @@ If `OPENAI_API_KEY` is set, ai-env-gen sends variable names (not values) to GPT 
 
 ## License
 
-MIT - Built by [LXGIC Studios](https://github.com/lxgicstudios)
+MIT
+
+---
+
+**Built by [LXGIC Studios](https://lxgicstudios.com)**
+
+🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
+
+💡 Want more free tools like this? We have 100+ on our GitHub: [github.com/lxgicstudios](https://github.com/lxgicstudios)
