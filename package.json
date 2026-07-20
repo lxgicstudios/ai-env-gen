@@ -14,7 +14,14 @@
     "generator",
     "ai",
     "cli",
-    "config"
+    "config",
+    "developer-tools",
+    "devtools",
+    "automation",
+    "typescript",
+    "security",
+    "coding-agent",
+    "setup"
   ],
   "author": "LXGIC Studios",
   "license": "MIT",

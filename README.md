@@ -2,6 +2,15 @@
 
 Generate .env files by scanning your code for environment variables. Never miss a required config again.
 
+
+## Works With
+
+- 🤖 Claude / Claude Code
+- 🔵 Cursor
+- 💚 GPT / ChatGPT
+- ⚡ Copilot
+- 🧩 MCP servers
+
 ## Install & Run
 
 ```bash
